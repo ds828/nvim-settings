@@ -8,7 +8,6 @@
     "function": ""
   },
 
-  "highlight.document.enable": true,
   "snippets.priority": 1,
   //"yank.priority": 1,
   "suggest.languageSourcePriority": 99,
@@ -48,7 +47,6 @@
     "java",
     "svelte"
   ],
-  "coc.preferences.hoverTarget": "float",
 
   // python config
   "pyright.enable": true,
@@ -61,7 +59,8 @@
   "python.analysis.typeCheckingMode": "basic",
   "python.analysis.useLibraryCodeForTypes": true,
   "python.pythonPath": "/usr/bin/python3",
-  "python.venvPath": "~/Data/dev/dev-envs",
+  "python.venvPath": "/home/di/Data/src/dev-envs",
+  "python.sortImports.args": [],
   "python.formatting.provider": "yapf",
   "python.formatting.blackPath": "~/.local/bin/black",
   "python.formatting.blackArgs": [],
@@ -84,10 +83,10 @@
   //"snippets.userSnippetsDirectory": "~/.config/nvim/snips",
 
   // emmet
-  "emmet.includeLanguages": {
-    "vue-html": "html",
-    "javascript": "javascriptreact"
-  },
+  /* "emmet.includeLanguages": { */
+  /*   "vue-html": "html", */
+  /*   "javascript": "javascriptreact" */
+  /* }, */
 
   // CSS (disable since I'm also using stylelintplus)
   "css.validate": false,
@@ -105,8 +104,7 @@
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
-  },
-
+  }
   /* "languageserver": { */
   /*   "lua": { */
   /*     "command": "/home/chris/.luambenvs/neovim4/bin/lua-lsp", */
@@ -116,7 +114,7 @@
   /* }, */
 
   //coc-emoji
-  "coc.source.emoji.filetypes": ["markdown"]
+  //"coc.source.emoji.filetypes": ["markdown"]
 
   // lua
   //"lua.useSumnekoLs": true,

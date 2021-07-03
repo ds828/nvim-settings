@@ -193,7 +193,7 @@ let g:which_key_map.l = {
 let g:which_key_map.t = {
       \ 'name' : '+terminal' ,
       \ 't' : [':10split | terminal'                  , 'buttom terminal'],
-      \ 'T' : [':50vsplit | terminal'                 , 'right terminal'],
+      \ 'T' : [':80vsplit | terminal'                 , 'right terminal'],
       \ 'p' : [':10split | terminal python3'          , 'python3 terminal'],
       \ }
 
