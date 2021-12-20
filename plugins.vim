@@ -56,15 +56,17 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Easily Create Gists
     Plug 'mattn/vim-gist'
     Plug 'mattn/webapi-vim'
-    " Quickscope 
+    " Quickscope
     Plug 'unblevable/quick-scope'
     " asynchronous linter
     Plug 'dense-analysis/ale'
+    " vim go
+    " Plug 'fatih/vim-go'
     " coc looks like must use it, better than others
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " syntax highlight and get right filetype for svelte
     Plug 'leafOfTree/vim-svelte-plugin'
-    
+
 call plug#end()
 
 " Automatically install missing plugins on startup

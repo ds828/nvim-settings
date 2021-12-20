@@ -15,7 +15,7 @@ let g:coc_global_extensions = [
   "\ 'coc-cssmodules',
   "\ 'coc-stylelintplus',
   "\ 'coc-emoji',
-  "\ 'coc-yaml',
+  \ 'coc-yaml',
   \ 'coc-pyright',
   \ 'coc-explorer',
   "\ 'coc-svg',
@@ -27,6 +27,8 @@ let g:coc_global_extensions = [
   "\ 'coc-highlight',
   \ 'coc-tsserver',
   \ 'coc-svelte',
+  \ 'coc-docker',
   \ 'coc-marketplace',
+  \ 'coc-go',
   \ ]
   " \ 'coc-tabnine',

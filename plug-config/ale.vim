@@ -2,6 +2,7 @@
 "let g:ale_linters = {
       \ 'python': ['pylint'],
       \ 'javascript': ['eslint'],
+      \ 'go': ['gopls'],
       \}
 " fixers
 let g:ale_fixers = {
